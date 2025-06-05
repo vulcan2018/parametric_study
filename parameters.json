@@ -1,0 +1,42 @@
+{
+  "cadence": 600.0,
+  "duration": 150.0,
+  "period": 3.9876324,
+  "epoch": 1.0103,
+  "r_planet": 0.02,
+  "run_name": "large_ttv_amplitudes_study",
+  "analysis_mode": "parametric_snr",
+  "save_data": true,
+  "save_lightcurves": false,
+  "save_bls_details": false,
+  "num_cores": 4,
+  "ttv_configurations": [
+    {"A_TTV": 0.05, "P_TTV": 30, "E_TTV": -15.0, "name": "baseline_small"},
+    {"A_TTV": 0.08, "P_TTV": 30, "E_TTV": -15.0, "name": "moderate_short"},
+    {"A_TTV": 0.1, "P_TTV": 30, "E_TTV": -15.0, "name": "large_short"},
+    {"A_TTV": 0.15, "P_TTV": 30, "E_TTV": -15.0, "name": "very_large_short"},
+    {"A_TTV": 0.2, "P_TTV": 30, "E_TTV": -15.0, "name": "huge_short"},
+    
+    {"A_TTV": 0.05, "P_TTV": 60, "E_TTV": -30.0, "name": "baseline_medium"},
+    {"A_TTV": 0.08, "P_TTV": 60, "E_TTV": -30.0, "name": "moderate_medium"},
+    {"A_TTV": 0.1, "P_TTV": 60, "E_TTV": -30.0, "name": "large_medium"},
+    {"A_TTV": 0.15, "P_TTV": 60, "E_TTV": -30.0, "name": "very_large_medium"},
+    {"A_TTV": 0.2, "P_TTV": 60, "E_TTV": -30.0, "name": "huge_medium"},
+    
+    {"A_TTV": 0.05, "P_TTV": 120, "E_TTV": -60.0, "name": "baseline_long"},
+    {"A_TTV": 0.08, "P_TTV": 120, "E_TTV": -60.0, "name": "moderate_long"},
+    {"A_TTV": 0.1, "P_TTV": 120, "E_TTV": -60.0, "name": "large_long"},
+    {"A_TTV": 0.15, "P_TTV": 120, "E_TTV": -60.0, "name": "very_large_long"},
+    {"A_TTV": 0.2, "P_TTV": 120, "E_TTV": -60.0, "name": "huge_long"},
+    
+    {"A_TTV": 0.1, "P_TTV": 200, "E_TTV": -100.0, "name": "large_poorly_sampled"},
+    {"A_TTV": 0.15, "P_TTV": 200, "E_TTV": -100.0, "name": "very_large_poorly_sampled"},
+    {"A_TTV": 0.2, "P_TTV": 200, "E_TTV": -100.0, "name": "huge_poorly_sampled"},
+    
+    {"A_TTV": 0.3, "P_TTV": 60, "E_TTV": -30.0, "name": "extreme_medium"},
+    {"A_TTV": 0.5, "P_TTV": 60, "E_TTV": -30.0, "name": "massive_medium"},
+    
+    {"A_TTV": 0.3, "P_TTV": 120, "E_TTV": -60.0, "name": "extreme_long"},
+    {"A_TTV": 0.5, "P_TTV": 120, "E_TTV": -60.0, "name": "massive_long"}
+  ]
+}
